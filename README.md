@@ -3,6 +3,9 @@ This tiny script lets you delete contacts through the MailChimp API (v. 3.0.1). 
 You should save some 💰 on your MailChimp plan.
 
 ## Installation
+
+This section supposes that you have Python 3+ installed on your machine (see [Downloads](https://www.python.org/downloads/) if it isn't).
+
 From your terminal:
 1. Clone this repo: `git clone https://github.com/tdnvl/delete-mailchimp-contact.git`
 2. `cd` into the cloned repo directory
