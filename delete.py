@@ -8,7 +8,7 @@
 import hashlib
 from mailchimp3 import MailChimp
 
-client = MailChimp(mc_api='YOUR-API-KEY', mc_user='YOUR-MAILCHIMP-USER-NAME')
+client = MailChimp(mc_api='YOUR_API_KEY', mc_user='YOUR_MAILCHIMP_USERNAME')
 
 loop = True
 
@@ -16,5 +16,5 @@ while loop:
 
     id = input("what's the contact's email address?\n")
     hash = hashlib.md5(id.encode('utf-8')).hexdigest()
-    client.lists.members.delete_permanent(list_id='YOUR-AUDIENCE-ID-HERE', subscriber_hash=hash)
+    client.lists.members.delete_permanent(list_id='YOUR_AUDIENCE_ID', subscriber_hash=hash)
     print ("The contact was deleted.\n")
