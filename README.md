@@ -9,8 +9,8 @@ This section supposes that you have Python 3+ installed on your machine (see [Do
 From your terminal:
 1. Clone this repo: `git clone https://github.com/tdnvl/delete-mailchimp-contact.git`
 2. `cd` into the cloned repo directory
-3. `python -m venv venv` to make the virtual environment
-4. `python venv/bin/activate` to activate the virtual environment
+3. `python3 -m venv venv` to make the virtual environment
+4. `source venv/bin/activate` to activate the virtual environment
 5. `pip install mailchimp3` to install [Python MailChimp](https://github.com/VingtCinq/python-mailchimp) the required package
 
 You will then need to obtain:
